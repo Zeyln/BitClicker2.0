@@ -45,7 +45,7 @@
     border-width: 2px;
     border-color: #00FF00;
     border-style: solid;
-    background-image: url(BitClicker2.0/assets/bg/bgimageG.png);
+    background-image: url(assets/bg/bgimageG.png);
     height: 3rem;
     position: absolute;
     left: 0;
@@ -64,7 +64,7 @@
     z-index: 9991;
 }
 #sideBar {
-    background-image: url(/assets/bg/bgimageG.png);
+    background-image: url(assets/bg/bgimageG.png);
     border-width: 2px;
     border-color: #00FF00;
     border-style: solid;
@@ -142,7 +142,7 @@
     height: 6rem;
     left: 21rem;
     top: 18rem;
-    background-image: url(/assets/bg/bgimageG.png);
+    background-image: url(assets/bg/bgimageG.png);
     border-width: 2px;
     border-color: #00FF00;
     border-style: solid;
@@ -221,7 +221,7 @@
     z-index: 9980;
 }
 body {   
-    background-image: url(/assets/bg/bgimageG.png);
+    background-image: url(assets/bg/bgimageG.png);
     margin: 0.4rem;
     z-index: 1;
 }
@@ -232,7 +232,7 @@ html {
 #startScreen {
     position: absolute;
     display: flex;
-    background-image: url(/assets/bg/bgimageG.png);
+    background-image: url(assets/bg/bgimageG.png);
     background-size: 50rem;
     justify-content: center;
     text-align: center;
@@ -292,7 +292,7 @@ html {
 }
 #upgTooltip {
     display: block;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 100, 0, 0.5)), url(/assets/bg/bgimageG.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 100, 0, 0.5)), url(assets/bg/bgimageG.png);
     position: absolute;
     right: 1rem;
     bottom: 1rem;
@@ -309,7 +309,7 @@ html {
 }
 #unitTooltip {
     display: block;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 100, 0, 0.5)), url(/assets/bg/bgimageG.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 100, 0, 0.5)), url(assets/bg/bgimageG.png);
     position: absolute;
     right: 1rem;
     bottom: 1rem;
