@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="purchasing.js" defer></script>
+    <script src="guiScripts.js" defer></script>
+</head>
+<body id="body" onclick="play()">
+    <div id="menuContainer">
+        <div id="menuWindow">
+            <button id="quitMenu" onclick="quitMenu()">Exit</button>
+            <div id="menuSection1">
+                <ul id="settingsContainer">
+                    <li class="settingFrame" id="setting1">Setting 1</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="startScreen"><p id="title">BitClicker</p><button id="startButton">Play</button></div>
+    <div id="background"></div>
+    <div id="container">
+        <div id="topBar">
+            <p id="logo">BitClicker</p>
+            <div id="upgradeCounter">
+                <p id="upgUntil"><p>&nbsp;Bits until next upgrade</p></p>
+            </div>
+            <button id="menuOpen" onclick="menu()">Menu</button>
+
+    </div>
+        <div id="sideBar">
+            
+            <button id="closeSideBar" onclick="minimizeSideBar()"><p id="sideBarIcon">←</p></button>
+            <ul class="upgList">
+                
+                <li class="upgFrames" id="upgFrame1">+2 per second <button class="upgButtons" id="upgButton1">100 bits</button></li>
+                <li class="upgFrames" id="upgFrame2">+2 per click <button class="upgButtons" id="upgButton2">220 bits</button></li>
+                <li class="upgFrames" id="upgFrame3">+4 per second <button class="upgButtons" id="upgButton3">600 bits</button></li>
+                <li class="upgFrames" id="upgFrame4">+1 per second <button class="upgButtons" id="upgButton4">1.6 kilobits</button></li>
+                <li class="upgFrames" id="upgFrame5">+10 per second <button class="upgButtons" id="upgButton5">4 kilobits</button></li>
+                <li class="upgFrames" id="upgFrame6">+25 per second <button class="upgButtons" id="upgButton6">5 kilobits</button></li>
+                <li class="upgFrames" id="upgFrame7">+10 per click <button class="upgButtons" id="upgButton7">50 kilobits</button></li>
+                <li class="upgFrames" id="upgFrame8">2x Multiplier <button class="upgButtons" id="upgButton8">200 kilobits</button></li>
+                <li class="upgFrames" id="upgFrame9">+1 per second <button class="upgButtons" id="upgButton9">600 kilobits</button></li>
+                <li class="upgFrames" id="upgFrame10">+1 per second <button class="upgButtons" id="upgButton10">1.2 gigabits</button></li>
+                <li class="upgFrames" id="upgFrame11">+1 per second <button class="upgButtons" id="upgButton11">5 gigabits</button></li>
+                <li class="upgFrames" id="upgFrame12">+1 per second <button class="upgButtons" id="upgButton12">25 gigabits</button></li>
+                <li class="upgFrames" id="upgFrame13">+1 per second <button class="upgButtons" id="upgButton13">100 gigabits</button></li>
+                <li class="upgFrames" id="upgFrame14">+1 per second <button class="upgButtons" id="upgButton14">200 gigabits</button></li>
+            </ul>
+        </div>
+        <div id="terminal"></div>
+        <div class="mainWindow">
+            <div class="dataDisplay">
+                <p id="dataValue">0</p>
+                <p id="dataUnit">bits</p>
+            </div>
+            
+            <button id="clicker">1 bit</button>
+        </div>
+        
+        
+    </div>
+    <div class="tooltips" id="upgTooltip">This is the cost <br>of the upgrade <br>you are trying <br>to buy</div>
+    <div class="tooltips" id="dataTooltip"></div>
+    <div class="tooltips" id="unitTooltip">Your data is tactically <br>optimized through <br>the metric system</div>
+    <div class="tooltips" id="logoTooltip">The game!</div>
+    </div>
+    
+</body>
+</html>
