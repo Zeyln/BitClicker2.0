@@ -326,7 +326,7 @@ html {
 }
 #unlockTooltip {
     display: block;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 100, 0, 0.5)), url(/assets/bg/bgimageG.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 100, 0, 0.5)), url(assets/bg/bgimageG.png);
     position: absolute;
     left: 3rem;
     bottom: 16.5rem;
@@ -343,7 +343,7 @@ html {
 }
 #logoTooltip {
     display: block;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 100, 0, 0.5)), url(/assets/bg/bgimageG.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 100, 0, 0.5)), url(assets/bg/bgimageG.png);
     position: absolute;
     right: 1rem;
     bottom: 1rem;
